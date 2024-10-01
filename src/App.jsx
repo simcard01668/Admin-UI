@@ -1,11 +1,21 @@
+import Home from './pages/home/Home'
+import List from './pages/list/List'
+import Login from './pages/login/Login'
+import { BrowserRouter as Router, Route, Switch, BrowserRouter } from 'react-router-dom'
+
 function App() {
 
   return (
-    <>
-    <h1 className="text-5xl font-bold underline">
-      Hello world!
-    </h1>
-    </>
+    <div className='App'>
+      <BrowserRouter>
+        <Routes>
+
+            <Route path="/" element={<Home />} />
+            <Route path='list' element={<List />} />
+
+        </Routes>
+      </BrowserRouter>
+    </div>
   )
 }
 
