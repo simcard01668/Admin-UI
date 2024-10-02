@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.liStyle {
+    @apply flex items-center font-bold p-[4px];
+
+    &:hover {
+        @apply bg-gray-200 cursor-pointer;
+
+    }
+}
