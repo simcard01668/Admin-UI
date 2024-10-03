@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.myBoxShadow {
+   @apply shadow-[2px_4px_10px_1px_rgba(201,201,201,0.47)]
+}
+
 .navIcon {
     @apply mr-[20px]
 }
