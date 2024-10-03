@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.navIcon {
+    @apply mr-[20px]
+}
+
 .liStyle {
     @apply flex items-center font-bold p-[4px];
 
@@ -9,4 +13,8 @@
         @apply bg-gray-200 cursor-pointer;
 
     }
+}
+
+.liMargin {
+    @apply ml-1.5;
 }
