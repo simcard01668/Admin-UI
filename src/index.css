@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .myBoxShadow {
    @apply shadow-[2px_4px_10px_1px_rgba(201,201,201,0.47)]
 }
@@ -11,6 +12,7 @@
 }
 
 .liStyle {
+    
     @apply flex items-center font-bold p-[4px];
 
     &:hover {
@@ -21,4 +23,33 @@
 
 .liMargin {
     @apply ml-1.5;
+}
+
+.status {
+    @apply text-xs font-bold py-1 px-2 rounded-full;
+
+    &.Approved {
+    @apply text-green-600 bg-green-100
+}   
+
+
+    &.Pending {
+    @apply text-yellow-600 bg-yellow-100
+}
+}
+
+.active {
+    @apply text-blue-600 bg-blue-100
+}
+
+.passive {
+    @apply text-gray-600 bg-gray-100
+}
+
+.pending {
+    @apply text-yellow-600 bg-yellow-100
+}
+
+.formInput {
+    @apply border border-gray-300 rounded-md p-2 w-[40%] flex flex-col
 }
