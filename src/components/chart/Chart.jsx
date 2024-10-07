@@ -43,7 +43,7 @@ const Chart = ({aspect, customHeight, title}) => {
   
   </defs>
   <XAxis dataKey="name" />
-  {/* <YAxis /> */}
+  <YAxis />
   <CartesianGrid strokeDasharray="3 3" />
   <Tooltip />
   <Area type="monotone" dataKey="Total" stroke="#8884d8" fillOpacity={1} fill="url(#total)" />

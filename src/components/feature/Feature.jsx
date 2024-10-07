@@ -12,7 +12,7 @@ const Feature = () => {
         </div>
 
         <div className="middle flex flex-col items-center gap-[10px] mb-[10px]">
-            <CircularProgressbar value={70} text={"70%"} className="progress size-[220px]" strokeWidth={4}/>
+            <CircularProgressbar value={70} text={"70%"} className="progress size-[110px]" strokeWidth={4}/>
             <p className="text-[14px] font-medium">Totale sales made today</p>
             <span className="revenue text-[30px] font-bold">$2,415</span>
             <span className="revenue text-[12px] font-medium text-center text-gray-500">Previous transaction still processing. Late payment may not be taken into account</span>

@@ -19,9 +19,9 @@ const Home = () => {
         </div>
         <div className="charts flex gap-[20px] py-[5px] px-[20px]">
           <Feature />
-          <Chart customHeight={417} aspect={2/1} title={"Income statistic"}/>
+          <Chart customHeight={300} aspect={2/1} title={"Income statistic"}/>
         </div>
-        <div className="listContainer m-[10px] p-[20px]">
+        <div className="listContainer p-[20px]">
           <div className="listTitle text-[20px] font-medium text-gray-500 flex flex-col items-center">
             Latest Transaction
             <List />
